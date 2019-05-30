@@ -1,0 +1,59 @@
+/* 
+* Tati Mendez
+* May 30, 2019
+* A web page about Sacagawea and her legacy
+*/
+
+/* The universal selector */
+
+* { margin: 0; padding: 0; }
+
+/* Body properties here */
+
+body { padding: 5%; width: 90%; font-family: "georgia", sans-serif; background-color: #e8e9ff; } /*font selector, width, padding, and background color for the body*/
+
+header { text-align: center; } /*text align property for the header*/
+
+#statue { height: 200px; border: 4px solid #202b56; margin: 5px; } /*image properties*/
+
+#horse { width: 75%; border: 4px solid #202b56; margin: 5px; clear: right; } /*image properties*/
+
+#h21 { text-align: center; text-decoration: overline underline; margin-bottom: 50px; } /* ID selector, text align, decoration, margin for an h2 */
+
+h1 { font-size: 400%; } /* font size for h1 */
+
+#a1 { clear: left; float: left; width: 17%; } /* ID selector, floating, width, clear for an aside */
+
+#a2 { float: right; width: 25%; padding: 4px; margin-bottom: 20px; } /* ID selector, floating, width, clear for an aside */
+
+#coin { width: 50%; margin-top: 20px; border: 4px solid #202b56; } /*image properties*/
+
+#birthplace, #river { width: 75%; border: 4px solid #202b56; margin-top: 20px; } /*image properties*/
+
+main { float: left; width: 53%; border: 4px solid #217c91; margin-top: 15px; margin-bottom: 10px; padding: 4px; } /* border, float, width, margin, padding for the main */
+
+p { padding-bottom: 2%; } /*padding for paragraphs*/
+
+footer { clear: both; } /* clear for the footer */
+
+#plast { float: right; font-style: italic; } /* ID selector, floating and font style for a paragraph */
+
+aside { border: 4px solid #217c91; margin: 6px; text-align: center; margin-top: 15px; } /* border, text align, width, margin for the main */
+
+h2 { margin: 3px; } /*margin for h2*/
+
+a:visited { color: #217c91; text-decoration: none; } /*link tag that changes the color and text decoration after a link is visited*/
+
+a:hover, a:focus { font-size: 200%; }/*link tag that changes the font size and color when it is hovered or "tabbed" over*/
+
+a:link { color: #217c91; text-decoration: none; } /*link tag for the color and text decoration properties for all links*/
+
+figure { text-align: center; }  /*text align properties for figures*/
+
+#landc { width: 50%; margin-top: 20px; border: 4px solid #202b56; } /*image properties*/
+
+#h31, ul { clear: both; }  /*text property for the header*/
+
+#lcfig { margin-bottom: 20px; } /*margin for a figure*/
+
+#rfig { margin-bottom: 7px; } /*margin for a figure*/
